@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+
+	<meta name="keywords" content="登录"/>
+	
+	
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<link href="css/style.css"  rel="stylesheet" type="text/css" media="all" />
+<!-- //Custom Theme files -->
+</head>
+<body>
+	<!-- main -->
+	<div class="main">
+		<h1>Login</h1>
+		<div class="main-row">
+			<div class="agileits-top"> 
+				<form action="#" method="post"> 
+					<input class="text" type="text" name="Username" placeholder="Username" id="Username"  required>
+					<input class="text" type="password" name="password" placeholder="Password" id="Password" required>
+					<input type="button" value="LOGIN" onclick="myFunction()">
+					<!--<p align="center"><button type="button" onclick="myFunction()">登陆</button></p>-->
+					<script>
+			            function myFunction()
+			                                   {
+				
+				                               var user = document.getElementById("Username").value;
+				                               var pwd = document.getElementById("Password").value;
+				 
+				 
+				 if(user=="lxm"&&pwd=="123")
+				 {
+					window.alert("Success");
+					 
+					
+				    window.open("简易qq空间.html"); 
+				 }else
+				 {
+					window.alert("failed");
+				 }
+				 
+			}
+			
+		</script>
+
+				</form>
+				
+			</div>	 
+		</div>	
+		<!-- copyright -->
+		<div class="copyright">
+			<p> 陆晓满的个人空间</p>
+		</div>
+		<!-- //copyright -->
+	</div>	
+	<!-- //main --> 
+</body>
+</html>
